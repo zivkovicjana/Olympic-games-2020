@@ -1,0 +1,716 @@
+/* 1 */
+{
+    "_id" : ObjectId("6110f852f7eeb4b32a9c1d48"),
+    "sport" : "kosarka",
+    "disciplina" : "/",
+    "pol" : "m",
+    "vrsta" : "ekipni",
+    "minIgraca" : "5",
+    "maxIgraca" : "12"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6110f865f7eeb4b32a9c1d4f"),
+    "sport" : "odbojka",
+    "disciplina" : "/",
+    "pol" : "m",
+    "vrsta" : "ekipni",
+    "minIgraca" : "6",
+    "maxIgraca" : "12"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6110f879f7eeb4b32a9c1d58"),
+    "sport" : "vaterpolo",
+    "disciplina" : "/",
+    "pol" : "m",
+    "vrsta" : "ekipni",
+    "minIgraca" : "6",
+    "maxIgraca" : "13"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6110f8ebf7eeb4b32a9c1d87"),
+    "sport" : "atletika",
+    "disciplina" : "100 metara trcanje",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6110f934f7eeb4b32a9c1d9c"),
+    "sport" : "atletika",
+    "disciplina" : "stafetno trcanje 100",
+    "pol" : "m",
+    "vrsta" : "ekipni",
+    "minIgraca" : "4",
+    "maxIgraca" : "4"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6110f967f7eeb4b32a9c1db0"),
+    "sport" : "atletika",
+    "disciplina" : "200 metara trcanje",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6110f967f7eeb4b32a9c1db3"),
+    "sport" : "atletika",
+    "disciplina" : "400 metara trcanje",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1df1"),
+    "sport" : "atletika",
+    "disciplina" : "stafetno trcanje 400",
+    "pol" : "m",
+    "vrsta" : "ekipni",
+    "minIgraca" : "4",
+    "maxIgraca" : "4"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1df4"),
+    "sport" : "atletika",
+    "disciplina" : "800 metara trcanje",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1df7"),
+    "sport" : "atletika",
+    "disciplina" : "5000 metara trcanje",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1dfa"),
+    "sport" : "atletika",
+    "disciplina" : "10000 metara trcanje",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1dfd"),
+    "sport" : "atletika",
+    "disciplina" : "skok u vis",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e00"),
+    "sport" : "atletika",
+    "disciplina" : "skok u dalj",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e03"),
+    "sport" : "atletika",
+    "disciplina" : "troskok",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e06"),
+    "sport" : "atletika",
+    "disciplina" : "skok s motkom",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e09"),
+    "sport" : "atletika",
+    "disciplina" : "bacanje kugle",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e0c"),
+    "sport" : "atletika",
+    "disciplina" : "bacanje diska",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e0f"),
+    "sport" : "atletika",
+    "disciplina" : "bacanje kladiva",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e12"),
+    "sport" : "atletika",
+    "disciplina" : "bacanje koplja",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e15"),
+    "sport" : "atletika",
+    "disciplina" : "maraton",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e18"),
+    "sport" : "atletika",
+    "disciplina" : "20km brzo hodanje",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("6110fa40f7eeb4b32a9c1e1b"),
+    "sport" : "atletika",
+    "disciplina" : "50km brzo hodanje",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("6110fe48f7eeb4b32a9c1f44"),
+    "sport" : "biciklizam",
+    "disciplina" : "drumska traka 225km",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("6110fe48f7eeb4b32a9c1f47"),
+    "sport" : "plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("6110fe48f7eeb4b32a9c1f4a"),
+    "sport" : "plivanje",
+    "disciplina" : "200m slobodno",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("61110222f7eeb4b32a9c2076"),
+    "sport" : "streljastvo",
+    "disciplina" : "50m trostav",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("61110222f7eeb4b32a9c2079"),
+    "sport" : "streljastvo",
+    "disciplina" : "10m vazdusna puska",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("61110222f7eeb4b32a9c207c"),
+    "sport" : "streljastvo",
+    "disciplina" : "25m malokalib. pistolj",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("61110222f7eeb4b32a9c207f"),
+    "sport" : "streljastvo",
+    "disciplina" : "10m vazdusni pistolj",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("61110222f7eeb4b32a9c2082"),
+    "sport" : "tenis",
+    "disciplina" : "singl",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("61110222f7eeb4b32a9c2085"),
+    "sport" : "tenis",
+    "disciplina" : "dubl",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "2",
+    "maxIgraca" : "2"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("61110248f7eeb4b32a9c209b"),
+    "sport" : "kosarka",
+    "disciplina" : "/",
+    "pol" : "z",
+    "vrsta" : "ekipni",
+    "minIgraca" : "5",
+    "maxIgraca" : "12"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21da"),
+    "sport" : "odbojka",
+    "disciplina" : "/",
+    "pol" : "z",
+    "vrsta" : "ekipni",
+    "minIgraca" : "6",
+    "maxIgraca" : "12"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21dd"),
+    "sport" : "vaterpolo",
+    "disciplina" : "/",
+    "pol" : "z",
+    "vrsta" : "ekipni",
+    "minIgraca" : "6",
+    "maxIgraca" : "13"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21e0"),
+    "sport" : "atletika",
+    "disciplina" : "100 metara trcanje",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21e3"),
+    "sport" : "atletika",
+    "disciplina" : "stafetno trcanje 100",
+    "pol" : "z",
+    "vrsta" : "ekipni",
+    "minIgraca" : "4",
+    "maxIgraca" : "4"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21e6"),
+    "sport" : "atletika",
+    "disciplina" : "200 metara trcanje",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21e9"),
+    "sport" : "atletika",
+    "disciplina" : "400 metara trcanje",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21ec"),
+    "sport" : "atletika",
+    "disciplina" : "stafetno trcanje 400",
+    "pol" : "z",
+    "vrsta" : "ekipni",
+    "minIgraca" : "4",
+    "maxIgraca" : "4"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21ef"),
+    "sport" : "atletika",
+    "disciplina" : "800 metara trcanje",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21f2"),
+    "sport" : "atletika",
+    "disciplina" : "5000 metara trcanje",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21f5"),
+    "sport" : "atletika",
+    "disciplina" : "10000 metara trcanje",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21f8"),
+    "sport" : "atletika",
+    "disciplina" : "skok u vis",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21fb"),
+    "sport" : "atletika",
+    "disciplina" : "skok u dalj",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c21fe"),
+    "sport" : "atletika",
+    "disciplina" : "troskok",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2201"),
+    "sport" : "atletika",
+    "disciplina" : "skok s motkom",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2204"),
+    "sport" : "atletika",
+    "disciplina" : "bacanje kugle",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2207"),
+    "sport" : "atletika",
+    "disciplina" : "bacanje diska",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c220a"),
+    "sport" : "atletika",
+    "disciplina" : "bacanje kladiva",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c220d"),
+    "sport" : "atletika",
+    "disciplina" : "bacanje koplja",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+/* 1 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2210"),
+    "sport" : "atletika",
+    "disciplina" : "maraton",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2213"),
+    "sport" : "atletika",
+    "disciplina" : "20km brzo hodanje",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2216"),
+    "sport" : "atletika",
+    "disciplina" : "50km brzo hodanje",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2219"),
+    "sport" : "biciklizam",
+    "disciplina" : "drumska traka 225km",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c221c"),
+    "sport" : "plivanje",
+    "disciplina" : "100m leptir",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c221f"),
+    "sport" : "plivanje",
+    "disciplina" : "200m slobodno",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2222"),
+    "sport" : "streljastvo",
+    "disciplina" : "50m trostav",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2225"),
+    "sport" : "streljastvo",
+    "disciplina" : "10m vazdusna puska",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2228"),
+    "sport" : "streljastvo",
+    "disciplina" : "25m malokalib. pistolj",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c222b"),
+    "sport" : "streljastvo",
+    "disciplina" : "10m vazdusni pistolj",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c222e"),
+    "sport" : "tenis",
+    "disciplina" : "singl",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("611106a8f7eeb4b32a9c2231"),
+    "sport" : "tenis",
+    "disciplina" : "dubl",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "minIgraca" : "2",
+    "maxIgraca" : "2"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("611221ded874df3920efdcac"),
+    "sport" : "basket",
+    "disciplina" : "/",
+    "pol" : "z",
+    "vrsta" : "ekipni",
+    "minIgraca" : "3",
+    "maxIgraca" : "5",
+    "__v" : 0
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("61241f15af24e23d2491177d"),
+    "sport" : "biciklizam",
+    "disciplina" : "drumska traka 300km",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/",
+    "__v" : 0
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("612545a25ea679212892792a"),
+    "sport" : "atletika",
+    "disciplina" : "300m trcanje",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "minIgraca" : "/",
+    "maxIgraca" : "/",
+    "__v" : 0
+}

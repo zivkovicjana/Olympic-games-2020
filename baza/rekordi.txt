@@ -1,0 +1,515 @@
+/* 1 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26dc"),
+    "godina" : "2012",
+    "mesto" : "London",
+    "disciplina" : "100 metara trcanje",
+    "takmicar" : "Jusejn Bolt",
+    "pol" : "m",
+    "drzava" : "Jamajka",
+    "vremeIliDuzina" : "9,63"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26df"),
+    "godina" : "2008",
+    "mesto" : "Peking",
+    "disciplina" : "200 metara trcanje",
+    "takmicar" : "Jusejn Bolt",
+    "pol" : "m",
+    "drzava" : "Jamajka",
+    "vremeIliDuzina" : "19,30"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26e2"),
+    "godina" : "2016",
+    "mesto" : "Rio de Zeneiro",
+    "disciplina" : "400 metara trcanje",
+    "takmicar" : "Vejd Van Nikerk",
+    "pol" : "m",
+    "drzava" : "Juznoafricka Republika",
+    "vremeIliDuzina" : "43,03"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26e5"),
+    "godina" : "2012",
+    "mesto" : "London",
+    "disciplina" : "800 metara trcanje",
+    "takmicar" : "Dejvid Rudisa",
+    "pol" : "m",
+    "drzava" : "Kenija",
+    "vremeIliDuzina" : "1:40,91"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26e8"),
+    "godina" : "1996",
+    "mesto" : "Sidnej",
+    "disciplina" : "1500 metara trcanje",
+    "takmicar" : "Noa Ngeni",
+    "pol" : "m",
+    "drzava" : "Kenija",
+    "vremeIliDuzina" : "3:32,07"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26eb"),
+    "godina" : "2008",
+    "mesto" : "Peking",
+    "disciplina" : "5000 metara trcanje",
+    "takmicar" : "Kenenisa Bekele",
+    "pol" : "m",
+    "drzava" : "Etiopija",
+    "vremeIliDuzina" : "12:57,82"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26ee"),
+    "godina" : "2008",
+    "mesto" : "Peking",
+    "disciplina" : "10000 metara trcanje",
+    "takmicar" : "Kenenisa Bekele",
+    "pol" : "m",
+    "drzava" : "Etiopija",
+    "vremeIliDuzina" : "27:01,17"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26f1"),
+    "godina" : "2008",
+    "mesto" : "Peking",
+    "disciplina" : "maraton",
+    "takmicar" : "Samjuel Kamau Vanjiru",
+    "pol" : "m",
+    "drzava" : "Kenija",
+    "vremeIliDuzina" : "2:06,32"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26f4"),
+    "godina" : "1988",
+    "mesto" : "Seul",
+    "disciplina" : "3000m prepreke",
+    "takmicar" : "Dzulijus Karjuki",
+    "pol" : "m",
+    "drzava" : "Kenija",
+    "vremeIliDuzina" : "8:05,51"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26f7"),
+    "godina" : "2004",
+    "mesto" : "Atina",
+    "disciplina" : "110m prepone",
+    "takmicar" : "Lju Sjang",
+    "pol" : "m",
+    "drzava" : "Kina",
+    "vremeIliDuzina" : "12,91"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26fa"),
+    "godina" : "1992",
+    "mesto" : "Barselona",
+    "disciplina" : "400m prepone",
+    "takmicar" : "Kevin Jang",
+    "pol" : "m",
+    "drzava" : "SAD",
+    "vremeIliDuzina" : "46,78"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c26fd"),
+    "godina" : "1996",
+    "mesto" : "Atlanta",
+    "disciplina" : "skok u vis",
+    "takmicar" : "Carls Ostin",
+    "pol" : "m",
+    "drzava" : "SAD",
+    "vremeIliDuzina" : "2,39"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c2700"),
+    "godina" : "2016",
+    "mesto" : "Rio de Zeneiro",
+    "disciplina" : "skok s motkom",
+    "takmicar" : "Tijago Braz da Silva",
+    "pol" : "m",
+    "drzava" : "Brazil",
+    "vremeIliDuzina" : "6,03"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c2703"),
+    "godina" : "1968",
+    "mesto" : "Meksiko Siti",
+    "disciplina" : "skok u dalj",
+    "takmicar" : "Bob Bimon",
+    "pol" : "m",
+    "drzava" : "SAD",
+    "vremeIliDuzina" : "8,90"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c2706"),
+    "godina" : "1996",
+    "mesto" : "Atlanta",
+    "disciplina" : "troskok",
+    "takmicar" : "Keni Harison",
+    "pol" : "m",
+    "drzava" : "SAD",
+    "vremeIliDuzina" : "18,09"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c2709"),
+    "godina" : "1988",
+    "mesto" : "Seul",
+    "disciplina" : "bacanje kugle",
+    "takmicar" : "Ulf Timerman",
+    "pol" : "m",
+    "drzava" : "Nemacka",
+    "vremeIliDuzina" : "22,47"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c270c"),
+    "godina" : "2004",
+    "mesto" : "Atina",
+    "disciplina" : "bacanje diska",
+    "takmicar" : "Virgilijus Alekna",
+    "pol" : "m",
+    "drzava" : "Litvanija",
+    "vremeIliDuzina" : "69,89"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c270f"),
+    "godina" : "1988",
+    "mesto" : "Seul",
+    "disciplina" : "bacanje kladiva",
+    "takmicar" : "Sergej Litvinov",
+    "pol" : "m",
+    "drzava" : "Sovjetski Savez",
+    "vremeIliDuzina" : "84,80"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c2712"),
+    "godina" : "2008",
+    "mesto" : "Peking",
+    "disciplina" : "bacanje koplja",
+    "takmicar" : "Andreas Torkildsen",
+    "pol" : "m",
+    "drzava" : "Norveska",
+    "vremeIliDuzina" : "90,57"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c2715"),
+    "godina" : "2004",
+    "mesto" : "Atina",
+    "disciplina" : "desetoboj",
+    "takmicar" : "Roman Sebrle",
+    "pol" : "m",
+    "drzava" : "Ceska",
+    "vremeIliDuzina" : "8893"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c2718"),
+    "godina" : "2012",
+    "mesto" : "London",
+    "disciplina" : "20km brzo hodanje",
+    "takmicar" : "Cen Ding",
+    "pol" : "m",
+    "drzava" : "Kina",
+    "vremeIliDuzina" : "1:18,46"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("611118cbf7eeb4b32a9c271b"),
+    "godina" : "2012",
+    "mesto" : "London",
+    "disciplina" : "50km brzo hodanje",
+    "takmicar" : "Sergej Kirdjapkin",
+    "pol" : "m",
+    "drzava" : "Rusija",
+    "vremeIliDuzina" : "3:35,59"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c293f"),
+    "godina" : "1988",
+    "mesto" : "Seul",
+    "disciplina" : "100 metara trcanje",
+    "takmicar" : "Florens Grifit Dzojner",
+    "pol" : "z",
+    "drzava" : "SAD",
+    "vremeIliDuzina" : "10,62"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2942"),
+    "godina" : "1988",
+    "mesto" : "Seul",
+    "disciplina" : "200 metara trcanje",
+    "takmicar" : "Florens Grifit Dzojner",
+    "pol" : "z",
+    "drzava" : "SAD",
+    "vremeIliDuzina" : "21,34"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2945"),
+    "godina" : "1996",
+    "mesto" : "Atlanta",
+    "disciplina" : "400 metara trcanje",
+    "takmicar" : "Mari-Zoze Perek",
+    "pol" : "z",
+    "drzava" : "Francuska",
+    "vremeIliDuzina" : "48,25"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2948"),
+    "godina" : "1980",
+    "mesto" : "Moskva",
+    "disciplina" : "800 metara trcanje",
+    "takmicar" : "Nadezda Olizareniko",
+    "pol" : "z",
+    "drzava" : "Sovjetski Savez",
+    "vremeIliDuzina" : "1:53,43"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c294b"),
+    "godina" : "1988",
+    "mesto" : "Seul",
+    "disciplina" : "1500 metara trcanje",
+    "takmicar" : "Paula Ivan",
+    "pol" : "z",
+    "drzava" : "Rumunija",
+    "vremeIliDuzina" : "3:53,96"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c294e"),
+    "godina" : "2016",
+    "mesto" : "Rio de Zeneiro",
+    "disciplina" : "5000 metara trcanje",
+    "takmicar" : "Vivijan Cerijot",
+    "pol" : "z",
+    "drzava" : "Kenija",
+    "vremeIliDuzina" : "14:26,17"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2951"),
+    "godina" : "2016",
+    "mesto" : "Rio de Zeneiro",
+    "disciplina" : "10000 metara trcanje",
+    "takmicar" : "Almaz Ajana",
+    "pol" : "z",
+    "drzava" : "Etiopija",
+    "vremeIliDuzina" : "29:17,45"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2954"),
+    "godina" : "2012",
+    "mesto" : "London",
+    "disciplina" : "maraton",
+    "takmicar" : "Tiki Gelana",
+    "pol" : "z",
+    "drzava" : "Etiopija",
+    "vremeIliDuzina" : "2:23,07"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2957"),
+    "godina" : "2012",
+    "mesto" : "London",
+    "disciplina" : "100m prepreke",
+    "takmicar" : "Sali Pirson",
+    "pol" : "z",
+    "drzava" : "Australija",
+    "vremeIliDuzina" : "12,35"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c295a"),
+    "godina" : "2008",
+    "mesto" : "Peking",
+    "disciplina" : "3000m prepreke",
+    "takmicar" : "Gulnara Samitova Galkina",
+    "pol" : "z",
+    "drzava" : "Rusija",
+    "vremeIliDuzina" : "8:58,81"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c295d"),
+    "godina" : "2004",
+    "mesto" : "Atina",
+    "disciplina" : "400m prepone",
+    "takmicar" : "Fani Halkija",
+    "pol" : "z",
+    "drzava" : "Grcka",
+    "vremeIliDuzina" : "52,77"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2960"),
+    "godina" : "2004",
+    "mesto" : "Atina",
+    "disciplina" : "skok u vis",
+    "takmicar" : "Jelena Slesarenko",
+    "pol" : "z",
+    "drzava" : "Rusija",
+    "vremeIliDuzina" : "2,06"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2963"),
+    "godina" : "2008",
+    "mesto" : "Peking",
+    "disciplina" : "skok s motkom",
+    "takmicar" : "Jelena Isinbajeva",
+    "pol" : "z",
+    "drzava" : "Rusija",
+    "vremeIliDuzina" : "4,91"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2966"),
+    "godina" : "1988",
+    "mesto" : "Seul",
+    "disciplina" : "skok u dalj",
+    "takmicar" : "Dzeki Dzojner Kersi",
+    "pol" : "z",
+    "drzava" : "SAD",
+    "vremeIliDuzina" : "7,40"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2969"),
+    "godina" : "2008",
+    "mesto" : "Peking",
+    "disciplina" : "troskok",
+    "takmicar" : "Fransoaz Mobango Etone",
+    "pol" : "z",
+    "drzava" : "Kambodza",
+    "vremeIliDuzina" : "15,39"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c296c"),
+    "godina" : "1980",
+    "mesto" : "Moskva",
+    "disciplina" : "bacanje kugle",
+    "takmicar" : "Ilona Slupijanek",
+    "pol" : "z",
+    "drzava" : "Nemacka",
+    "vremeIliDuzina" : "22,41"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c296f"),
+    "godina" : "1988",
+    "mesto" : "Seul",
+    "disciplina" : "bacanje diska",
+    "takmicar" : "Martina Helman",
+    "pol" : "z",
+    "drzava" : "Nemacka",
+    "vremeIliDuzina" : "72,30"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2972"),
+    "godina" : "2016",
+    "mesto" : "Rio de Zeneiro",
+    "disciplina" : "bacanje kladiva",
+    "takmicar" : "Anita Vlodarcik",
+    "pol" : "z",
+    "drzava" : "Rusija",
+    "vremeIliDuzina" : "82,29"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2975"),
+    "godina" : "2004",
+    "mesto" : "Atina",
+    "disciplina" : "bacanje koplja",
+    "takmicar" : "Osleidis Menendes",
+    "pol" : "z",
+    "drzava" : "Kuba",
+    "vremeIliDuzina" : "71,53"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c2978"),
+    "godina" : "1988",
+    "mesto" : "Seul",
+    "disciplina" : "sedmoboj",
+    "takmicar" : "Dzeki Dzojner Kersi",
+    "pol" : "z",
+    "drzava" : "SAD",
+    "vremeIliDuzina" : "7291"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("61112136f7eeb4b32a9c297b"),
+    "godina" : "2012",
+    "mesto" : "London",
+    "disciplina" : "20km brzo hodanje",
+    "takmicar" : "Jelena Lasmanova",
+    "pol" : "z",
+    "drzava" : "Rusija",
+    "vremeIliDuzina" : "1:25,02"
+}

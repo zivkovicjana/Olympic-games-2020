@@ -1,0 +1,29 @@
+<body>
+  <div class="header">
+    <h1>OLIMPIJADA 2020</h1>
+  </div>
+  <div class="navbar">
+    <div class="navlink">
+      <a href="pocetna">Povratak na pocetnu stranu</a>
+    </div>
+  </div>
+  <div class="login">
+    <h1>Prijavite se</h1>
+    <form method="post" action="">
+      <p>Korisnicko ime: <input type="text" name="username" [(ngModel)]='username' placeholder="Korisnicko ime"></p>
+      <p>Lozinka: <input type="password" name="password" [(ngModel)]='password' placeholder="Lozinka"></p>
+      <p>Tip:
+        <select name='tip' [(ngModel)]='tip'>
+          <option [ngValue]='undefined' selected disabled>Odaberite tip korisnika</option>
+          <option value='organizator'>Organizator</option>
+          <option value='delegat'>Delegat</option>
+          <option value='vodja_delegacije'>Vodja delegacije</option>
+        </select>
+      </p>
+      <p class="submit"><button (click)='prijava()'>PRIJAVA</button></p>
+    </form>
+    <div *ngIf='poruka' class='greska'>
+      {{poruka}}
+    </div>
+  </div>
+</body>

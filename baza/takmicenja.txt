@@ -1,0 +1,82 @@
+/* 1 */
+{
+    "_id" : ObjectId("6117ddd65b733812043200c5"),
+    "lokacija" : "bazen",
+    "ucesnici" : [ 
+        "Una Unic", 
+        "Joka Jokic"
+    ],
+    "delegati" : [ 
+        "Lazar Vulic", 
+        "Jana Zivkovic", 
+        "Vasilisa Buric"
+    ],
+    "sport" : "plivanje",
+    "disciplina" : "100m leptir",
+    "format" : "Svi takmicari  ucestvuju u jednoj trci i rangiraju se po konacnom vremenu",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "datumP" : "1.8.2021.",
+    "vremeP" : "10:00",
+    "datumK" : "2.9.2021.",
+    "vremeK" : "10:24",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6124cd4283e380346c7058ee"),
+    "ucesnici" : [ 
+        "Ivanka Ivankic", 
+        "Joka Jokic", 
+        "Ana Ankic", 
+        "Ema Emic", 
+        "Petra Jovanovic", 
+        "Senka Senkic", 
+        "Simona Simonic"
+    ],
+    "delegati" : [ 
+        "Isidora Buric", 
+        "Pedja Zivkovic"
+    ],
+    "sport" : "atletika",
+    "disciplina" : "troskok",
+    "format" : "Svi takmicari  ucestvuju u jednoj trci i rangiraju se po konacnom vremenu",
+    "pol" : "z",
+    "vrsta" : "individualni",
+    "datumP" : "26.7.2021.",
+    "vremeP" : "9:00",
+    "datumK" : "2.8.2021",
+    "vremeK" : "20:47",
+    "lokacija" : "atletski stadion",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("612be965eb7eea273469d013"),
+    "ucesnici" : [ 
+        "Stevan Stevic", 
+        "Tak1 Takic1", 
+        "Tak2 Takic2", 
+        "Tak3 Takic3", 
+        "Tak4 Takic4", 
+        "Tak5 Takic5", 
+        "Tak6 Takic6"
+    ],
+    "delegati" : [ 
+        "Petar Petrovic", 
+        "Pedja Zivkovic"
+    ],
+    "sport" : "atletika",
+    "disciplina" : "100 metara trcanje",
+    "format" : "Svi takmicari  ucestvuju u jednoj trci i rangiraju se po konacnom vremenu",
+    "pol" : "m",
+    "vrsta" : "individualni",
+    "datumP" : "29.7.2021.",
+    "vremeP" : "15:00",
+    "datumK" : "29.8.2021.",
+    "vremeK" : "22:48",
+    "lokacija" : "atletski stadion",
+    "__v" : 0
+}

@@ -1,0 +1,169 @@
+<body>
+    <div class="header">
+        <h1>OLIMPIJADA 2020</h1>
+    </div> 
+    <div class="navbar">
+        <div class="navlink">
+            <a href="pocetna">Povratak na pocetnu stranu</a>
+        </div>
+    </div>
+
+
+    <div class="center">
+        <div class="row">
+            <div *ngIf='!rekordi' class="column">
+                <button (click)='dohvRekorde()' class="button">Prikazi sve rekorde</button>
+            </div>
+            <div *ngIf='rekordi' class="column">
+                <button (click)='skloniRekorde()' class="button">Skloni rekorde</button>
+            </div>
+            <div>
+                <table *ngIf='rekordi' class="table">
+                    <tr>
+                        <th>Godina</th>
+                        <th>Mesto odrzavanja OI</th>
+                        <th>Disciplina</th>
+                        <th>Takmicar</th>
+                        <th>Drzava</th>
+                        <th>Vreme/duzina osvojenog rekorda</th>
+                    </tr>
+                    <tr *ngFor='let r of rekordi'>
+                        <td>{{r.godina}}</td>
+                        <td>{{r.mesto}}</td>
+                        <td>{{r.disciplina}}</td>
+                        <td>{{r.takmicar}}</td>
+                        <td>{{r.drzava}}</td>
+                        <td>{{r.vremeIliDuzina}}</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div class="row">
+            <div *ngIf='!neodobreniKorisnici' class="column">
+                <button (click)='neodobreni()' class="button">Prikazi neodobrene korisnike</button>
+            </div>
+            <div *ngIf='neodobreniKorisnici' class="column">
+                <button (click)='skloni()' class="button">Sakrij neodobrene korisnike</button>
+            </div>
+            <div>
+                <table *ngIf='neodobreniKorisnici' class="table1">
+                    <tr>
+                        <th>Korisnicko ime</th>
+                        <th>Ime</th>
+                        <th>Prezime</th>
+                        <th>Drzava</th>
+                        <th>Mail</th>
+                        <th>Tip</th>
+                        <th>Odobri korisnika</th>
+                    </tr>
+                    <tr *ngFor='let n of neodobreniKorisnici'>
+                        <td>{{n.username}}</td>
+                        <td>{{n.ime}}</td>
+                        <td>{{n.prezime}}</td>
+                        <td>{{n.drzava}}</td>
+                        <td>{{n.mail}}</td>
+                        <td>{{n.tip}}</td>
+                        <td colspan="2">
+                            <button (click)='odobriKorisnika(n.username, n.tip, n.ime, n.prezime, n.drzava)'>Odobri</button>
+                        </td>
+                    </tr>
+                    <div *ngIf='poruka3' class='greska'>
+                        {{poruka3}}
+                    </div>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div *ngIf='!sportIDisciplina' class="column">
+                <button (click)='postaviS()' class="button">Prikazi formu za unos sporta i discipline</button>
+            </div>
+            <div *ngIf='sportIDisciplina' class="column">
+                <button (click)='skloniS()' class="button">Sakrij formu za unos sporta i discipline</button>
+            </div>
+            <div *ngIf='sportIDisciplina' class="login">
+                <h1>Dodaj sport i disciplinu</h1>
+                <form method="post" action="">
+                    <p>Sport:<input type='text' name='sport' [(ngModel)]='sport'>
+                    </p>
+                    <p>Disciplina:<input type='text' name='disciplina' [(ngModel)]='disciplina'></p>
+                    <p>Pol:
+                        <input type='radio' name='pol' [(ngModel)]='pol' value='m'>Muski
+                        <input type='radio' name='pol' [(ngModel)]='pol' value='z'>Zenski
+                    </p>
+                    <p>Vrsta:
+                        <input type='radio' name='vrsta' [(ngModel)]='vrsta' value='ekipni'>Ekipni
+                        <input type='radio' name='vrsta' [(ngModel)]='vrsta' value='individualni'>Individualni
+                    </p>
+                    <p>Minimalan broj igraca: <input type='text' name='minIgraca' [(ngModel)]='minIgraca'></p>
+                    <p>Maksimalni broj igraca: <input type='text' name='maxIgraca' [(ngModel)]='maxIgraca'></p>
+                    <p class="submit"><button (click)='dodajSport()'>DODAJ</button></p>
+                </form>
+                <div *ngIf='poruka' class='greska'>
+                    {{poruka}}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div *ngIf='!takmicenje' class="column">
+                <button (click)='postaviT()' class="button">Prikazi formu za unos takmicenja</button>
+            </div>
+            <div *ngIf='takmicenje' class="column">
+                <button (click)='skloniT()' class="button">Sakrij formu za unos takmicenja</button>
+            </div>
+            <div *ngIf='takmicenje' class="login"> 
+                <h1>Dodaj takmicenje</h1>
+                <form method="post" action="">
+                    <p>Sport:
+                        <select (click)='nadjiDiscipline()' name='sport1' [(ngModel)]='sport1'>
+                            <option [ngValue]='undefined' selected disabled>Odaberite sport</option>
+                            <option *ngFor='let s of sviSportovi'>{{s.sport}}</option>
+                        </select>
+                    </p>
+                    <p>Disciplina:
+                        <select name='disciplina1' [(ngModel)]='disciplina1'>
+                            <option [ngValue]='undefined' selected disabled>Odaberite disciplinu</option>
+                            <option *ngFor='let d of sveDiscipline'>{{d.disciplina}}</option>
+                        </select>
+                    </p>
+                    <p>Format takmicenja:
+                        <input type='text' name='format' [(ngModel)]='format'>
+                    </p>
+                    <p>Pol:
+                        <select (click)='postaviPojedince()' name="pol1" [(ngModel)]='pol1'>
+                            <option [ngValue]='undefined' selected disabled>Odaberite pol</option>
+                            <option value="m">M</option>
+                            <option value="z">Z</option>
+                        </select>
+                    </p>
+                    <p>Vrsta:
+                        <input type="radio" name="vrsta1" [(ngModel)]='vrsta1' value="ekipni">ekipni
+                        <input type="radio" name="vrsta1" [(ngModel)]='vrsta1' value="individualni">individualni
+                    </p>
+                    <p>Lokacija: <input type='text' name='lokacija' [(ngModel)]='lokacija'></p>
+                    <p>Ucesnici: 
+                        <select name='ucesnici' [(ngModel)]='ucesnici' multiple>
+                            <option [ngValue]='undefined' selected disabled>Odaberite takmicare</option>
+                            <option *ngFor='let i of individualniTakmicari'>{{i.imeIPrezime}}</option>
+                        </select>
+                    </p>
+                    <p>Delegat/i: 
+                        <select name='delegati' [(ngModel)]='delegati' multiple>
+                            <option [ngValue]="undefined" selected disabled>Odaberite delegate</option>
+                            <option *ngFor='let d of sviDelegati'>{{d.ime}} {{d.prezime}}</option>
+                        </select>
+                    </p>
+                    <p class="submit"><button (click)='dodajTakmicenje()'>DODAJ</button></p>
+                </form>
+                <div *ngIf='porukaTakmicenje' class='greska'>
+                    {{porukaTakmicenje}}
+                </div>
+                <div *ngIf='poruka5' class='greska'>
+                    {{poruka5}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>

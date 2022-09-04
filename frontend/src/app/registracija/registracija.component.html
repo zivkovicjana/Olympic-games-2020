@@ -1,0 +1,34 @@
+<body>
+    <div class="header">
+        <h1>OLIMPIJADA 2020</h1>
+      </div>
+      <div class="navbar">
+        <div class="navlink">
+          <a href="pocetna">Povratak na pocetnu stranu</a>
+        </div>
+      </div>
+    <div class="login">
+        <h1>Registrujte se</h1>
+        <form method="post" action="">
+            <p>Korisnicko ime: <input type="text" name="username" [(ngModel)]='username' placeholder="Korisnicko ime"></p>
+            <p>Lozinka: <input type="password" name="password" [(ngModel)]='password' placeholder="Lozinka"></p>
+            <p>Ponovite lozinku: <input type="password" name="passwordAgain" [(ngModel)]='passwordAgain' placeholder="Ponovite lozinku"></p>
+            <p>Ime: <input type="text" name="ime" [(ngModel)]='ime' placeholder="Ime"></p>
+            <p>Prezime: <input type="text" name="prezime" [(ngModel)]='prezime' placeholder="Prezime"></p>
+            <p>Drzava: <input type="text" name="drzava" [(ngModel)]='drzava' placeholder="Drzava"></p>
+            <p>Mail: <input type="text" name="mail" [(ngModel)]='mail' placeholder="Mail"></p>
+            <p>Tip:
+                <select name='tip' [(ngModel)]='tip'>
+                    <option [ngValue]='undefined' selected disabled>Odaberite tip korisnika</option>
+                    <option value='organizator'>Organizator</option>
+                    <option value='delegat'>Delegat</option>
+                    <option value='vodja_delegacije'>Vodja delegacije</option>
+                </select>
+            </p>
+            <p class="submit"><button (click)='registracija()'>REGISTRACIJA</button></p>
+        </form>
+        <div *ngIf='poruka' class='greska'>
+            {{poruka}}
+        </div>
+    </div>
+</body>

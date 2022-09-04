@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th>Godina</th>
+        <th>Mesto odrzavanja OI</th>
+        <th>Disciplina</th>
+        <th>Takmicar</th>
+        <th>Drzava</th>
+        <th>Vreme/duzina osvojenog rekorda</th>
+    </tr>
+    <tr *ngFor='let r of sviRekordi'>
+         <td>{{r.godina}}</td>
+         <td>{{r.mesto}}</td>
+         <td>{{r.disciplina}}</td>
+         <td>{{r.takmicar}}</td>
+         <td>{{r.drzava}}</td>
+         <td>{{r.vremeIliDuzina}}</td>
+    </tr>
+</table>

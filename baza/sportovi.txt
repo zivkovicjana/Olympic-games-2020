@@ -1,0 +1,62 @@
+/* 1 */
+{
+    "_id" : ObjectId("61229c3a73be6e0aa8d333cb"),
+    "sport" : "kosarka",
+    "vrsta" : "ekipni"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61229c3a73be6e0aa8d333ce"),
+    "sport" : "odbojka",
+    "vrsta" : "ekipni"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61229c3a73be6e0aa8d333d1"),
+    "sport" : "vaterpolo",
+    "vrsta" : "ekipni"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61229c3a73be6e0aa8d333d4"),
+    "sport" : "atletika",
+    "vrsta" : "individualni"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("61229c3a73be6e0aa8d333d7"),
+    "sport" : "biciklizam",
+    "vrsta" : "individualni"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("61229c3a73be6e0aa8d333da"),
+    "sport" : "plivanje",
+    "vrsta" : "individualni"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("61229c3a73be6e0aa8d333dd"),
+    "sport" : "streljastvo",
+    "vrsta" : "individualni"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("61229c3a73be6e0aa8d333e0"),
+    "sport" : "tenis",
+    "vrsta" : "individualni"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("61229c6273be6e0aa8d3340b"),
+    "sport" : "basket",
+    "vrsta" : "ekipni"
+}

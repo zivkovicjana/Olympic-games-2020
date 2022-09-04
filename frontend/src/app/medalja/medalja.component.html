@@ -1,0 +1,59 @@
+<body>
+    <div class="header">
+        <h1>OLIMPIJADA 2020</h1>
+    </div>
+    <div class="navbar">
+        <div class="navlink">
+            <a href="pocetna">Povratak na pocetnu stranu</a>
+        </div>
+    </div>
+    <div *ngIf='sveMedalje.length>10' class="center1">
+        Broj elemenata po stranici: <select [(ngModel)]='itemsPerPage1'>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option> 
+        </select>
+    </div>
+    <div *ngIf='sveMedalje.length>10 ; else bezPaginacije'>
+        <table class="center">
+            <tr>
+                <th>Rang</th>
+                <th>Zemlja</th>
+                <th>Broj zlatnih medalja</th>
+                <th>Broj srebrnih medalja</th>
+                <th>Broj bronzanih medalja</th>
+                <th>Ukupan broj medalja</th>
+            </tr>
+            <tr *ngFor="let m of sveMedalje | paginate: {itemsPerPage:itemsPerPage1,currentPage:p1, id: 'first'};">
+                <td>{{m.rang}}</td>
+                <td>{{m.zemlja}}</td>
+                <td>{{m.brZlatnih}}</td>
+                <td>{{m.brSrebrnih}}</td>
+                <td>{{m.brBronzanih}}</td>
+                <td>{{m.ukupno}}</td>
+            </tr>
+            <pagination-controls (pageChange)="p1 = $event" id="first"></pagination-controls>
+        </table>
+    </div>
+    <ng-template #bezPaginacije>
+        <table class="center">
+            <tr>
+                <th>Rang</th>
+                <th>Zemlja</th>
+                <th>Broj zlatnih medalja</th>
+                <th>Broj srebrnih medalja</th>
+                <th>Broj bronzanih medalja</th>
+                <th>Ukupan broj medalja</th>
+            </tr>
+            <tr *ngFor="let m of sveMedalje">
+                <td>{{m.rang}}</td>
+                <td>{{m.zemlja}}</td>
+                <td>{{m.brZlatnih}}</td>
+                <td>{{m.brSrebrnih}}</td>
+                <td>{{m.brBronzanih}}</td>
+                <td>{{m.ukupno}}</td>
+            </tr>
+        </table>
+    </ng-template>
+</body>

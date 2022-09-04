@@ -1,0 +1,2 @@
+u app od frontenda:
+npm install ngx-pagination

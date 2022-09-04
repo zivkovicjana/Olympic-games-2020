@@ -1,0 +1,57 @@
+<body>
+    <div class="header">
+        <h1>OLIMPIJADA 2020</h1>
+    </div>
+    <div class="navbar">
+        <div class="navlink">
+            <a href="pocetna">Povratak na pocetnu stranu</a>
+        </div>
+    </div>
+    <div class="center">
+        <div class="row">
+            <div *ngIf='!sportista' class="column">
+                <button (click)='postaviS()' class="button">Prikazi formu za unos sportiste</button>
+            </div>
+            <div *ngIf='sportista' class="column">
+                <button (click)='skloniS()' class="button">Sakrij formu za unos sportiste</button>
+            </div>
+            <div *ngIf='sportista' class="login">
+                <h1>Dodaj sportistu</h1>
+                <form method="post" action="">
+                    <p>Ime i prezime:<input type="text" name="imeIPrezime" [(ngModel)]='imeIPrezime'></p>
+                    <p>Pol:
+                        <input type='radio' name='pol' [(ngModel)]='pol' value='m'>M
+                        <input type='radio' name='pol' [(ngModel)]='pol' value='z'>Z
+                    </p>
+                    <p>Sport:
+                        <select (click)='nadjiDiscipline()' name='sport' [(ngModel)]='sport'>
+                            <option [ngValue]='undefined' selected disabled>Odaberite sport</option>
+                            <option *ngFor='let s of sviSportovi'>{{s.sport}}</option>
+                        </select>
+                    </p>
+                    <p>Disciplina:
+                        <select name='disciplina' [(ngModel)]='disciplina'>
+                            <option [ngValue]='undefined' selected disabled>Odaberite disciplinu</option>
+                            <option *ngFor='let d of sveDiscipline'>{{d.disciplina}}</option>
+                        </select>
+                    </p>
+                    <p class="submit"><button (click)='dodajSportistu()'>DODAJ</button></p>
+                </form>
+                <div *ngIf='poruka' class='greska'>
+                    {{poruka}}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div *ngIf='!broj' class="column">
+                <button (click)='postaviB()' class="button">Prikazi broj takmicara ove delegacije</button>
+            </div>
+            <div *ngIf='broj' class="column">
+                <button (click)='skloniB()' class="button">Sakrij broj takmicara ove delegacije</button>
+            </div>
+            <div *ngIf='broj' class="table2">
+                <tr>Broj takmicara je : {{brClanovaTima}}</tr>
+            </div>
+        </div>
+    </div>
+</body>

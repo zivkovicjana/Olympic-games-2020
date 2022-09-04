@@ -1,0 +1,119 @@
+<body>
+    <div class="header">
+        <h1>OLIMPIJADA 2020</h1>
+    </div>
+    <div class="navbar">
+        <div class="navlink">
+            <a href="pocetna">Povratak na pocetnu stranu</a>
+        </div>
+    </div>
+    <div class="center">
+        <div class="row">
+            <div *ngIf='!pocetak' class="column">
+                <button (click)='postaviP()' class="button">Prikazi takmicenja</button>
+            </div>
+            <div *ngIf='pocetak' class="column">
+                <button (click)='skloniP()' class="button">Skloni takmicenja</button>
+            </div>
+            <div>
+                <table *ngIf='pocetak' class="table">
+                    <tr>
+                        <th>Sport</th>
+                        <th>Disciplina</th>
+                        <th>Format</th>
+                        <th>Pol</th>
+                        <th>Vrsta</th>
+                        <th>Lokacija</th>
+                        <th>Datum pocetka (format DD.MM.GGGG)</th>
+                        <th>Vreme pocetka (format SS:MM)</th>
+                    </tr>
+                    <tr *ngFor='let t of svaTakmicenja; let i=index'>
+                        <td>{{t.sport}}</td>
+                        <td>{{t.disciplina}}</td>
+                        <td>{{t.format}}</td>
+                        <td>{{t.pol}}</td>
+                        <td>{{t.vrsta}}</td>
+                        <td>{{t.lokacija}}</td>
+                        <td *ngIf='t.datumP==""'>
+                            <input type="text" name="datumi[i]" [(ngModel)]='datumi[i]'>
+                        </td>
+                        <td *ngIf='t.datumP!=""'>
+                            Datum pocetka je postavljen
+                        </td>
+                        <td *ngIf='t.vremeP==""'>
+                            <input type="text" name="vremena[i]" [(ngModel)]='vremena[i]'>
+                        </td>
+                        <td *ngIf='t.vremeP!=""'>
+                            Vreme pocetka je postavljen
+                        </td>
+                        <td *ngIf='t.datumP=="" && t.vremeP==""'>
+                            <button (click)='dodajPocetak(t.sport, t.disciplina, t.pol, t.lokacija, i)'>Dodaj</button>
+                        </td>
+                    </tr>
+                    <div *ngIf='poruka' class='greska'>
+                        {{poruka}}
+                    </div>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div *ngIf='!rezultat' class="column">
+                <button (click)='postaviR()' class="button">Prikazi rezultate</button>
+            </div>
+            <div *ngIf='rezultat' class="column">
+                <button (click)='skloniR()' class="button">Skloni rezultate</button>
+            </div>
+            <div>
+                <div *ngIf='rezultat' class='login'>
+                    <p>Sport:
+                        <select (click)='nadjiDiscipline()' name='sport' [(ngModel)]='sport'>
+                            <option [ngValue]='undefined' selected disabled>Odaberite sport</option>
+                            <option *ngFor='let s of sviSportovi'>{{s.sport}}</option>
+                        </select>
+                    </p>
+                    <p>Disciplina:
+                        <select name='disciplina' [(ngModel)]='disciplina'>
+                            <option [ngValue]='undefined' selected disabled>Odaberite disciplinu</option>
+                            <option *ngFor='let d of sveDiscipline'>{{d.disciplina}}</option>
+                        </select>
+                    </p>
+                    <p>Pol:
+                        <select (click)='nadjiSportiste()' name='pol' [(ngModel)]='pol'>
+                            <option [ngValue]='undefined' selected disabled>Odaberite pol</option>
+                            <option value="m">M</option>
+                            <option value="z">Z</option>
+                        </select>
+                    </p>
+                </div>
+                <div *ngIf='s'>
+                    <table  class="table2">
+                        <tr>
+                            <th>Ime i prezime takmicara</th>
+                            <th>Drzava</th>
+                            <th>Rezultat</th>
+                        </tr>
+                        <tr *ngFor='let r of sportistiZaDelegata; let i=index'>
+                            <td>{{r.imeIPrezime}}</td>
+                            <td>{{r.drzava}}</td>
+                            <td *ngIf='r.rezultat==""'>
+                                <input type="text" name="rezultatiKucice[i]" [(ngModel)]="rezultatiKucice[i]">
+                            </td>
+                            <td *ngIf='r.rezultat!=""'>
+                                Rezultat je unesen
+                            </td>
+                            <td *ngIf='r.rezultat==""'>
+                                <button (click)='dodajRezultat(r.sport, r.disciplina, r.pol, r.imeIPrezime, i)'>Dodaj rezultat</button>
+                            </td>
+                        </tr>
+                        <div *ngIf='dugmeKraj'>
+                            <button (click)='postaviMedalje(sport, disciplina, pol)'>KRAJ</button>
+                        </div>
+                        <div *ngIf='porukaRezultati' class='greska'>
+                            {{porukaRezultati}}
+                        </div>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

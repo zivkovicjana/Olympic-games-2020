@@ -1,0 +1,93 @@
+<body>
+    <div class="header">
+        <h1>OLIMPIJADA 2020</h1>
+    </div>
+    <div class="navbar">
+        <div class="navlink">
+            <a href="pocetna">Povratak na pocetnu stranu</a>
+        </div>
+    </div>
+    <div class="login">
+        <h1>Pretrazite sportiste</h1>
+        <form method="post" action="">
+            <p>Ime i prezime: <input type="text" name="imeIPrezime" [(ngModel)]='imeIPrezime'
+                    placeholder="Ime i prezime"></p>
+            <p>Drzava:
+                <select name='drzava' [(ngModel)]='drzava'>
+                    <option [ngValue]='undefined' selected disabled>Odaberite drzavu</option>
+                    <option *ngFor='let z of sveZemlje'>{{z.ime}}</option>
+                </select>
+            </p>
+            <p>Sport:
+                <select (click)='nadjiDiscipline()' name='sport' [(ngModel)]='sport'>
+                    <option [ngValue]='undefined' selected disabled>Odaberite sport</option>
+                    <option *ngFor='let s of sviSportovi'>{{s.sport}}</option>
+                </select>
+            </p>
+            <p>Disciplina:
+                <select name='disciplina' [(ngModel)]='disciplina'>
+                    <option [ngValue]='undefined' selected disabled>Odaberite disciplinu</option>
+                    <option *ngFor='let d of sveDiscipline'>{{d.disciplina}}</option>
+                </select>
+            </p>
+            <p>Pol:
+
+                <input type='radio' name='pol' [(ngModel)]='pol' value="m">M
+                <input type='radio' name='pol' [(ngModel)]='pol' value="z">Z
+
+            </p>
+            <p><input type='checkbox' name='medalja' [(ngModel)]='medalja'>samo osvajaci medalja</p>
+            <p class="submit"><button (click)='pretrazi()'>PRETRAZI</button> </p>
+            <div *ngIf='poruka' class='greska'>
+                {{poruka}}
+            </div>
+        </form>
+    </div>
+    <div *ngIf='s'>
+        <div *ngIf='sviSportisti.length>10' class="center1">
+            Broj elemenata po stranici: <select [(ngModel)]='itemsPerPage1'>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+        </div>
+        <div *ngIf='sviSportisti.length>10 ; else bezPaginacije'>
+            <table class="center">
+                <tr>
+                    <th>Ime i prezime</th>
+                    <th>Pol</th>
+                    <th>Sport</th>
+                    <th>Disciplina</th>
+                    <th>Drzava</th>
+                </tr>
+                <tr *ngFor="let s of sviSportisti | paginate: {itemsPerPage:itemsPerPage1,currentPage:p1, id: 'first'};">
+                    <td>{{s.imeIPrezime}}</td>
+                    <td>{{s.pol}}</td>
+                    <td>{{s.sport}}</td>
+                    <td>{{s.disciplina}}</td>
+                    <td>{{s.drzava}}</td>
+                </tr>
+                <pagination-controls (pageChange)="p1 = $event" id="first"></pagination-controls>
+            </table>
+        </div>
+        <ng-template #bezPaginacije>
+            <table class="center">
+                <tr>
+                    <th>Ime i prezime</th>
+                    <th>Pol</th>
+                    <th>Sport</th>
+                    <th>Disciplina</th>
+                    <th>Drzava</th>
+                </tr>
+                <tr *ngFor="let s of sviSportisti">
+                    <td>{{s.imeIPrezime}}</td>
+                    <td>{{s.pol}}</td>
+                    <td>{{s.sport}}</td>
+                    <td>{{s.disciplina}}</td>
+                    <td>{{s.drzava}}</td>
+                </tr>
+            </table>
+        </ng-template>
+    </div>
+</body>

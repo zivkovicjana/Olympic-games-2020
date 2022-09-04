@@ -1,0 +1,57 @@
+/* 1 */
+{
+    "_id" : ObjectId("6113b6e8f7eeb4b32a9c8276"),
+    "takmicari" : [],
+    "sport" : "kosarka",
+    "disciplina" : "/",
+    "brTakmicara" : 0,
+    "drzava" : "Srbija",
+    "pol" : "m",
+    "id" : 1
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("611675cee89402290058b4cf"),
+    "takmicari" : [ 
+        "Katarina Katic"
+    ],
+    "sport" : "odbojka",
+    "disciplina" : "/",
+    "brTakmicara" : 2,
+    "drzava" : "Norveska",
+    "pol" : "z",
+    "id" : 2,
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("611677665f87cd3a487b6e3a"),
+    "takmicari" : [ 
+        "Petar Petrovic", 
+        "Toza Tozic"
+    ],
+    "sport" : "vaterpolo",
+    "disciplina" : "/",
+    "brTakmicara" : 2,
+    "drzava" : "Belgija",
+    "pol" : "m",
+    "id" : 3,
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("612548987c9d9a36309db2f7"),
+    "takmicari" : [ 
+        "Senka Senkic"
+    ],
+    "sport" : "vaterpolo",
+    "disciplina" : "bacanje kladiva",
+    "brTakmicara" : 1,
+    "drzava" : "Nemacka",
+    "pol" : "z",
+    "id" : 4,
+    "__v" : 0
+}

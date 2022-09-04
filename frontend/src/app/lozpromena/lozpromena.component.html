@@ -1,0 +1,27 @@
+<body>
+    <div class="header">
+        <h1>OLIMPIJADA 2020</h1>
+      </div>
+      <div class="navbar">
+        <div class="navlink">
+          <a href="pocetna">Povratak na pocetnu stranu</a>
+        </div>
+      </div>
+    <div class="login">
+        <h1>Promenite lozinku</h1>
+        <form method="post" action="">
+            <p>Korisnicko ime: <input type="text" name="username" [(ngModel)]='username' placeholder="Korisnicko ime">
+            </p>
+            <p>Stara lozinka: <input type="password" name="password" [(ngModel)]='password' placeholder="Stara lozinka">
+            </p>
+            <p>Nova lozinka: <input type="password" name="newPassword" [(ngModel)]='newPassword'
+                    placeholder="Nova lozinka"></p>
+            <p>Ponovite lozinku: <input type="password" name="newPasswordAgain" [(ngModel)]='newPasswordAgain'
+                    placeholder="Ponovite lozinku"></p>
+            <p class="submit"><button (click)='promeniLozinku()'>PROMENI</button></p>
+        </form>
+        <div *ngIf='poruka' class='greska'>
+          {{poruka}}
+      </div>
+    </div>
+</body>

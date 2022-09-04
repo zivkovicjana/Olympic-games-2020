@@ -1,0 +1,91 @@
+/* 1 */
+{
+    "_id" : ObjectId("6118f5e953deed0d5047ef66"),
+    "username" : "isidora",
+    "ime" : "Isidora",
+    "prezime" : "Buric",
+    "brojDelegiranja" : 1,
+    "odobren" : "1",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("6118ff0c73be6e0aa8d24a88"),
+    "username" : "lazar",
+    "ime" : "Lazar",
+    "prezime" : "Vulic",
+    "brojDelegiranja" : 1,
+    "odobren" : "1"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("6118ff0c73be6e0aa8d24a8b"),
+    "username" : "jana",
+    "ime" : "Jana",
+    "prezime" : "Zivkovic",
+    "brojDelegiranja" : 1,
+    "odobren" : "1"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6118ff0c73be6e0aa8d24a8e"),
+    "username" : "vaska",
+    "ime" : "Vasilisa",
+    "prezime" : "Buric",
+    "brojDelegiranja" : 1,
+    "odobren" : "1"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("6118ff0c73be6e0aa8d24a91"),
+    "username" : "mika",
+    "ime" : "Mika",
+    "prezime" : "Mikic",
+    "brojDelegiranja" : 0,
+    "odobren" : "1"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("6118ff3b73be6e0aa8d24a9f"),
+    "username" : "pera",
+    "ime" : "Petar",
+    "prezime" : "Petrovic",
+    "brojDelegiranja" : 1,
+    "odobren" : "1"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("6118ff3b73be6e0aa8d24aa2"),
+    "username" : "marko",
+    "ime" : "Marko",
+    "prezime" : "Vuletic",
+    "brojDelegiranja" : 0,
+    "odobren" : "1"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("6124d99c73be6e0aa8d35a89"),
+    "username" : "pedja",
+    "ime" : "Pedja",
+    "prezime" : "Zivkovic",
+    "brojDelegiranja" : 2,
+    "odobren" : "1"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("6132799cdc0a07212c641538"),
+    "username" : "laza",
+    "ime" : "Lazar",
+    "prezime" : "Jeremic",
+    "brojDelegiranja" : 0,
+    "odobren" : "1",
+    "__v" : 0
+}

@@ -1,0 +1,1032 @@
+/* 1 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3131"),
+    "rang" : "1",
+    "zemlja" : "SAD",
+    "brZlatnih" : 46,
+    "brSrebrnih" : 54,
+    "brBronzanih" : 37,
+    "ukupno" : 126
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3134"),
+    "rang" : "2",
+    "zemlja" : "Kina",
+    "brZlatnih" : "38",
+    "brSrebrnih" : "32",
+    "brBronzanih" : "18",
+    "ukupno" : "88"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3137"),
+    "rang" : "5",
+    "zemlja" : "Japan",
+    "brZlatnih" : "27",
+    "brSrebrnih" : "14",
+    "brBronzanih" : "17",
+    "ukupno" : "58"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c313a"),
+    "rang" : "4",
+    "zemlja" : "Velika Britanija",
+    "brZlatnih" : "22",
+    "brSrebrnih" : "21",
+    "brBronzanih" : "22",
+    "ukupno" : "65"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c313d"),
+    "rang" : "3",
+    "zemlja" : "Rusija",
+    "brZlatnih" : 21,
+    "brSrebrnih" : "28",
+    "brBronzanih" : "23",
+    "ukupno" : 72
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3140"),
+    "rang" : "6",
+    "zemlja" : "Australija",
+    "brZlatnih" : "17",
+    "brSrebrnih" : "7",
+    "brBronzanih" : "22",
+    "ukupno" : "46"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3143"),
+    "rang" : "9",
+    "zemlja" : "Holandija",
+    "brZlatnih" : "10",
+    "brSrebrnih" : "12",
+    "brBronzanih" : "14",
+    "ukupno" : "36"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3146"),
+    "rang" : "10",
+    "zemlja" : "Francuska",
+    "brZlatnih" : "10",
+    "brSrebrnih" : "12",
+    "brBronzanih" : "11",
+    "ukupno" : "33"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3149"),
+    "rang" : "8",
+    "zemlja" : "Nemacka",
+    "brZlatnih" : 15,
+    "brSrebrnih" : 17,
+    "brBronzanih" : "16",
+    "ukupno" : 43
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c314c"),
+    "rang" : "7",
+    "zemlja" : "Italija",
+    "brZlatnih" : "10",
+    "brSrebrnih" : "10",
+    "brBronzanih" : "20",
+    "ukupno" : "40"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c314f"),
+    "rang" : "11",
+    "zemlja" : "Kanada",
+    "brZlatnih" : "7",
+    "brSrebrnih" : "6",
+    "brBronzanih" : "11",
+    "ukupno" : "24"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3152"),
+    "rang" : "12",
+    "zemlja" : "Brazil",
+    "brZlatnih" : "7",
+    "brSrebrnih" : "6",
+    "brBronzanih" : "8",
+    "ukupno" : "21"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3155"),
+    "rang" : "13",
+    "zemlja" : "Novi Zeland",
+    "brZlatnih" : "7",
+    "brSrebrnih" : "6",
+    "brBronzanih" : "7",
+    "ukupno" : "20"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3158"),
+    "rang" : "18",
+    "zemlja" : "Kuba",
+    "brZlatnih" : "7",
+    "brSrebrnih" : "3",
+    "brBronzanih" : "5",
+    "ukupno" : "15"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c315b"),
+    "rang" : "13",
+    "zemlja" : "Madjarska",
+    "brZlatnih" : "6",
+    "brSrebrnih" : "7",
+    "brBronzanih" : "7",
+    "ukupno" : "20"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c315e"),
+    "rang" : "13",
+    "zemlja" : "Juzna Koreja",
+    "brZlatnih" : "6",
+    "brSrebrnih" : "4",
+    "brBronzanih" : "10",
+    "ukupno" : "20"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3161"),
+    "rang" : "19",
+    "zemlja" : "Poljska",
+    "brZlatnih" : "4",
+    "brSrebrnih" : "5",
+    "brBronzanih" : "5",
+    "ukupno" : "14"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3164"),
+    "rang" : "23",
+    "zemlja" : "Ceska",
+    "brZlatnih" : "4",
+    "brSrebrnih" : "4",
+    "brBronzanih" : "3",
+    "ukupno" : "11"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3167"),
+    "rang" : "25",
+    "zemlja" : "Kenija",
+    "brZlatnih" : "4",
+    "brSrebrnih" : "4",
+    "brBronzanih" : "2",
+    "ukupno" : "10"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c316a"),
+    "rang" : "29",
+    "zemlja" : "Norveska",
+    "brZlatnih" : "4",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "2",
+    "ukupno" : "8"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c316d"),
+    "rang" : "26",
+    "zemlja" : "Jamajka",
+    "brZlatnih" : "4",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "4",
+    "ukupno" : "26"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3170"),
+    "rang" : "17",
+    "zemlja" : "Spanija",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "8",
+    "brBronzanih" : "6",
+    "ukupno" : "17"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3173"),
+    "rang" : "26",
+    "zemlja" : "Svedska",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "6",
+    "brBronzanih" : "0",
+    "ukupno" : "9"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3176"),
+    "rang" : "20",
+    "zemlja" : "Svajcarska",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "4",
+    "brBronzanih" : "6",
+    "ukupno" : "13"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3179"),
+    "rang" : "23",
+    "zemlja" : "Danska",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "4",
+    "brBronzanih" : "4",
+    "ukupno" : "11"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c317c"),
+    "rang" : "29",
+    "zemlja" : "Hrvatska",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "3",
+    "brBronzanih" : "2",
+    "ukupno" : "8"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c317f"),
+    "rang" : "33",
+    "zemlja" : "Iran",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "2",
+    "ukupno" : "7"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3182"),
+    "rang" : "26",
+    "zemlja" : "Srbija",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "1",
+    "brBronzanih" : 6,
+    "ukupno" : 10
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3185"),
+    "rang" : "33",
+    "zemlja" : "Belgija",
+    "brZlatnih" : 9,
+    "brSrebrnih" : 6,
+    "brBronzanih" : 9,
+    "ukupno" : 24
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3188"),
+    "rang" : "39",
+    "zemlja" : "Bugarska",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "2",
+    "ukupno" : "6"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c318b"),
+    "rang" : "42",
+    "zemlja" : "Slovenija",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "1",
+    "ukupno" : "5"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c318e"),
+    "rang" : "42",
+    "zemlja" : "Uzbekistan",
+    "brZlatnih" : "3",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "2",
+    "ukupno" : "5"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3191"),
+    "rang" : "29",
+    "zemlja" : "Gruzija",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "5",
+    "brBronzanih" : "1",
+    "ukupno" : "8"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3194"),
+    "rang" : "22",
+    "zemlja" : "Tajvan",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "4",
+    "brBronzanih" : "6",
+    "ukupno" : "12"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3197"),
+    "rang" : "20",
+    "zemlja" : "Turska",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "9",
+    "ukupno" : "13"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c319a"),
+    "rang" : "47",
+    "zemlja" : "Grcka",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "1",
+    "ukupno" : "4"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c319d"),
+    "rang" : "47",
+    "zemlja" : "Uganda",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "1",
+    "ukupno" : "4"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31a0"),
+    "rang" : "60",
+    "zemlja" : "Ekvador",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "0",
+    "ukupno" : "3"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31a3"),
+    "rang" : "47",
+    "zemlja" : "Irska",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "2",
+    "ukupno" : "4"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31a6"),
+    "rang" : "47",
+    "zemlja" : "Izrael",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "2",
+    "ukupno" : "4"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31a9"),
+    "rang" : "60",
+    "zemlja" : "Katar",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "3"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31ac"),
+    "rang" : "66",
+    "zemlja" : "Bahami",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "0",
+    "ukupno" : "2"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31af"),
+    "rang" : "66",
+    "zemlja" : "Kosovo",
+    "brZlatnih" : "2",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "0",
+    "ukupno" : "2"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31b2"),
+    "rang" : "16",
+    "zemlja" : "Ukrajna",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "6",
+    "brBronzanih" : "12",
+    "ukupno" : "19"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31b5"),
+    "rang" : "33",
+    "zemlja" : "Belorusija",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "3",
+    "brBronzanih" : "3",
+    "ukupno" : "7"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31b8"),
+    "rang" : "47",
+    "zemlja" : "Rumunija",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "3",
+    "brBronzanih" : "0",
+    "ukupno" : "4"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31bb"),
+    "rang" : "47",
+    "zemlja" : "Venecuela",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "3",
+    "brBronzanih" : "0",
+    "ukupno" : "4"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31be"),
+    "rang" : "33",
+    "zemlja" : "Indija",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "4",
+    "ukupno" : "7"
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31c1"),
+    "rang" : "39",
+    "zemlja" : "Hongkong",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "3",
+    "ukupno" : "6"
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31c4"),
+    "rang" : "47",
+    "zemlja" : "Filipini",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "1",
+    "ukupno" : "4"
+}
+/* 1 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31c7"),
+    "rang" : "47",
+    "zemlja" : "Slovacka",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "1",
+    "ukupno" : "4"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31ca"),
+    "rang" : "60",
+    "zemlja" : "Juzna Afrika",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "0",
+    "ukupno" : "3"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31cd"),
+    "rang" : "33",
+    "zemlja" : "Austrija",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "5",
+    "ukupno" : "7"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31d0"),
+    "rang" : "39",
+    "zemlja" : "Egipat",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "4",
+    "ukupno" : "6"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31d3"),
+    "rang" : "42",
+    "zemlja" : "Indonezija",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "3",
+    "ukupno" : "5"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31d6"),
+    "rang" : "47",
+    "zemlja" : "Etiopija",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "2",
+    "ukupno" : "4"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31d9"),
+    "rang" : "47",
+    "zemlja" : "Portugal",
+    "brZlatnih" : 6,
+    "brSrebrnih" : "1",
+    "brBronzanih" : 3,
+    "ukupno" : 10
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31dc"),
+    "rang" : "66",
+    "zemlja" : "Tunis",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "0",
+    "ukupno" : "2"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31df"),
+    "rang" : "66",
+    "zemlja" : "Estonija",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "2"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31e2"),
+    "rang" : "66",
+    "zemlja" : "Fidzi",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "2"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31e5"),
+    "rang" : "66",
+    "zemlja" : "Letonija",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "2"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31e8"),
+    "rang" : "66",
+    "zemlja" : "Tajland",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "2"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31eb"),
+    "rang" : "77",
+    "zemlja" : "Bermuda",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "0",
+    "ukupno" : "1"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31ee"),
+    "rang" : "77",
+    "zemlja" : "Maroko",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "0",
+    "ukupno" : "1"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31f1"),
+    "rang" : "77",
+    "zemlja" : "Portoriko",
+    "brZlatnih" : "1",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "0",
+    "ukupno" : "1"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31f4"),
+    "rang" : "42",
+    "zemlja" : "Kolumbija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "4",
+    "brBronzanih" : "1",
+    "ukupno" : "5"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31f7"),
+    "rang" : "33",
+    "zemlja" : "Azerbejdzan",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "3",
+    "brBronzanih" : "4",
+    "ukupno" : "7"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31fa"),
+    "rang" : "42",
+    "zemlja" : "Dominikanska Republika",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "3",
+    "brBronzanih" : "2",
+    "ukupno" : "5"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c31fd"),
+    "rang" : "47",
+    "zemlja" : "Jermenija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "2",
+    "ukupno" : "4"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3200"),
+    "rang" : "60",
+    "zemlja" : "Kirgizija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "2",
+    "brBronzanih" : "1",
+    "ukupno" : "3"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3203"),
+    "rang" : "47",
+    "zemlja" : "Mongolija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "3",
+    "ukupno" : "4"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3206"),
+    "rang" : "60",
+    "zemlja" : "Argentina",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "2",
+    "ukupno" : "3"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3209"),
+    "rang" : "60",
+    "zemlja" : "San Marino",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "2",
+    "ukupno" : "3"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c320c"),
+    "rang" : "66",
+    "zemlja" : "Jordan",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "1",
+    "ukupno" : "2"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c320f"),
+    "rang" : "66",
+    "zemlja" : "Malezija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "1",
+    "ukupno" : "2"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3212"),
+    "rang" : "66",
+    "zemlja" : "Nigerija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "1",
+    "ukupno" : "2"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3215"),
+    "rang" : "77",
+    "zemlja" : "Bahrein",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "0",
+    "ukupno" : "1"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3218"),
+    "rang" : "77",
+    "zemlja" : "Saudijska Arabija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "0",
+    "ukupno" : "1"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c321b"),
+    "rang" : "77",
+    "zemlja" : "Litvanija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "0",
+    "ukupno" : "1"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c321e"),
+    "rang" : "77",
+    "zemlja" : "Severna Makedonija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "0",
+    "ukupno" : "1"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3221"),
+    "rang" : "77",
+    "zemlja" : "Namibija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "0",
+    "ukupno" : "1"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3224"),
+    "rang" : "77",
+    "zemlja" : "Turkmenistan",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "1",
+    "brBronzanih" : "0",
+    "ukupno" : "1"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3227"),
+    "rang" : "29",
+    "zemlja" : "Kazahstan",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "8",
+    "ukupno" : "8"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c322a"),
+    "rang" : "47",
+    "zemlja" : "Meksiko",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "4",
+    "ukupno" : "4"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c322d"),
+    "rang" : "66",
+    "zemlja" : "Finska",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "2",
+    "ukupno" : "2"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3230"),
+    "rang" : "77",
+    "zemlja" : "Bocvana",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "1"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3233"),
+    "rang" : "77",
+    "zemlja" : "Burkina Faso",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "1"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3236"),
+    "rang" : "77",
+    "zemlja" : "Bahrein",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "1"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3239"),
+    "rang" : "77",
+    "zemlja" : "Obala Slonovace",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "1"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c323c"),
+    "rang" : "77",
+    "zemlja" : "Gana",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "1"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c323f"),
+    "rang" : "77",
+    "zemlja" : "Grenada",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "1"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3242"),
+    "rang" : "77",
+    "zemlja" : "Kuvajt",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "1"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3245"),
+    "rang" : "77",
+    "zemlja" : "Moldavija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "1"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("61114033f7eeb4b32a9c3248"),
+    "rang" : "77",
+    "zemlja" : "Sirija",
+    "brZlatnih" : "0",
+    "brSrebrnih" : "0",
+    "brBronzanih" : "1",
+    "ukupno" : "1"
+}

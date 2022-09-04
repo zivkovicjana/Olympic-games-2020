@@ -1,0 +1,51 @@
+<body>
+    <div class="header">
+        <h1>OLIMPIJADA 2020</h1>
+    </div>
+    <div class="navbar">
+        <div class="navlink">
+            <a href="pocetna">Povratak na pocetnu stranu</a>
+        </div>
+    </div>
+    <div *ngIf='sveZemlje.length>10' class="center1">
+        Broj elemenata po stranici: <select [(ngModel)]='itemsPerPage1'>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option> 
+        </select>
+    </div>
+    <div *ngIf='sveZemlje.length>10 ; else bezPaginacije'>
+        <table class="center"> 
+            <tr>
+                <th>Zastava</th>
+                <th>Drzava</th>
+                <th>Broj sportista</th>
+            </tr>
+            <tr *ngFor="let z of sveZemlje | paginate: {itemsPerPage:itemsPerPage1,currentPage:p1, id: 'first'};">
+                <td>
+                    <img width="70px" height="50px" src="assets/{{z.zastava}}">
+                </td>
+                <td>{{z.ime}}</td>
+                <td>{{z.brSportista}}</td>
+            </tr>
+            <pagination-controls (pageChange)="p1 = $event" id="first"></pagination-controls>
+        </table>
+    </div>
+    <ng-template #bezPaginacije>
+        <table class="center">
+            <tr>
+                <th>Zastava</th>
+                <th>Drzava</th>
+                <th>Broj sportista</th>
+            </tr>
+            <tr *ngFor="let z of sveZemlje">
+                <td>
+                    <img width="70px" height="50px" src="assets/{{z.zastava}}">
+                </td>
+                <td>{{z.ime}}</td>
+                <td>{{z.brSportista}}</td>
+            </tr>
+        </table>
+    </ng-template>
+</body>
